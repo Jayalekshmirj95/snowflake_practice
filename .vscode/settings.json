@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "Test",
+            "group": "snowflake",
+            "account": "https://bf86811.ap-southeast-1",
+            "username": "JAYA",
+            "password": "Jaya@0405",
+            "database": "OUR_FIRST_DB",
+            "warehouse": "COMPUTE_WH1"
+        }
+    ]
+}
